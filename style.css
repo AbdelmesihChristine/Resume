@@ -13,7 +13,7 @@
     --main-color: #2b79cd;
 }
 html{
-    font-size: 60%;
+    font-size: 70%;
     overflow-x: hidden;
 }
 
@@ -164,6 +164,7 @@ span{
     font-weight: 600;
     transition: 0.3s ease-in-out;
     cursor: pointer;
+    white-space: nowrap;
 }
 .btn:hover{
     transform: scale(1.05);
