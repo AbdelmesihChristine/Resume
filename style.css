@@ -385,7 +385,7 @@ span{
 }
 .skills-box{
     background-color: var(--main-color);
-    height: 300px;
+    /*height: 300px;*/
     border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
@@ -405,7 +405,7 @@ span{
     text-align: left;
     min-height: 200px;
     justify-content: left;
-    padding: 5rem 5rem;
+    padding: 3rem 4rem;
 }
 .skills-info h4{
     font-size: 3.2rem;
@@ -528,6 +528,14 @@ span{
         margin: 0 5rem;
     }
 
+}
+@media (max-width: 600px) {
+  .skills-info h4 {
+    font-size: 2.4rem;  /* slightly smaller heading */
+  }
+  .skills-info p {
+    font-size: 1.3rem;  /* decrease from 1.5rem or 1.2rem */
+  }
 }
 @media (max-width:991px) {
     .home-img img {
