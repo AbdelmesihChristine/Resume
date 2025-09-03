@@ -228,16 +228,16 @@ span{
   
   @keyframes words {
     0%, 20% {
-      content: "Software Developer";
+      content: "Backend Developer";
     }
     21%, 40% {
-      content: "UX Designer";
+      content: "Full-Stack Developer";
     }
     41%, 60% {
-      content: "Data Analyst";
+      content: "AI/ML Developer";
     }
     61%, 100% {
-      content: "AI/ML Developer";
+      content: "UI Developer";
     }
   }
   
@@ -654,3 +654,4 @@ span{
         margin: 2rem 0;
     }
 }
+
