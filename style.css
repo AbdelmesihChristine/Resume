@@ -71,6 +71,10 @@ section {
     padding: 10rem 12% 10rem;
 }
 
+.intro {
+  text-align: center;
+}
+
 .home{
     display: flex;
     justify-content: flex-start;
@@ -654,4 +658,5 @@ span{
         margin: 2rem 0;
     }
 }
+
 
